@@ -1,5 +1,5 @@
 ## Neural Control Contraction Metric (CCM)
-`Please note that this is ongoing work. I will likely add in LQR baselines for improved simulation results.`
+`Please note that this is ongoing work. LQR baselines may be added for improved simulation results.`
 
 This repo explores **neural Control Contraction Metrics (CCMs)** for a nonlinear, underactuated **cart–pendulum system**.
 
@@ -13,5 +13,6 @@ This guarantees **incremental (relative) exponential stability**: nearby traject
 ### Structure
 - python/train_ccm_metric.py -->  CCM training
 - matlab/cartpend_ccm_demo.m --> Nonlinear simulation + plots
+
 
 
